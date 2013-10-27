@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:background="@android:color/darker_gray" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:text="Settings"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item1_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="Setting item 1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item2_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item2"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item3_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item3"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item4_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item4"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item5_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item5"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item6_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item6"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item7_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item7"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/item8_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Setting item8"
+            android:onClick="onClick"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>
